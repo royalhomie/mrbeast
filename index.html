@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <title>Mr Beast Application</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>MrBeast Challenge</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#challenge">The Challenge</a></li>
+                    <li><a href="#apply">Apply Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>$1,000,000 CHALLENGE</h1>
+            <h2>Apply now to be a contestant in the next viral MrBeast video!</h2>
+            <a href="#apply" class="btn">Apply Now</a>
+        </div>
+    </section>
+
+    <section class="advert-countdown">
+        <div class="container">
+            <h2>Next Challenge Starts In:</h2>
+            <div id="countdown" class="countdown-timer">
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <label>Days</label>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <label>Hours</label>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <label>Minutes</label>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <label>Seconds</label>
+                </div>
+            </div>
+            <p class="advert-text">Don't miss your chance to be part of the next epic MrBeast event!</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About The Challenge</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We're looking for contestants to participate in an upcoming MrBeast challenge with a prize of
+                        $1,000,000! This is your chance to be part of one of the biggest YouTube events of the year.</p>
+                    <p>MrBeast challenges are known worldwide for their creativity, excitement, and life-changing
+                        prizes. Don't miss your opportunity to be part of this amazing experience!</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/mrbeast1.jpeg" alt="MrBeast Challenge" class="placeholder-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="challenge" class="challenge">
+        <div class="container">
+            <h2>The $1,000,000 Challenge</h2>
+            <div class="challenge-grid">
+                <div class="challenge-card">
+                    <img src="images/mrbeast2.jpg" alt="Challenge Preview" class="placeholder-img">
+                    <h3>Epic Competition</h3>
+                    <p>Compete in a series of exciting challenges designed to test your skills, endurance, and
+                        determination.</p>
+                </div>
+                <div class="challenge-card">
+                    <img src="images/mrbeast3.jpg" alt="Prize Money" class="placeholder-img">
+                    <h3>Life-Changing Prize</h3>
+                    <p>One winner will walk away with $1,000,000 in cash! Plus, you'll gain fame from appearing in a
+                        viral video.</p>
+                </div>
+                <div class="challenge-card">
+                    <img src="images/mrbeast4.jpg" alt="Global Audience" class="placeholder-img">
+                    <h3>Global Audience</h3>
+                    <p>Be seen by millions of viewers worldwide and become part of the MrBeast legacy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apply" class="apply">
+        <div class="container">
+            <h2>Apply Now</h2>
+            <div class="apply-content">
+                <div class="apply-text">
+                    <p>To apply for the $1,000,000 MrBeast Challenge:</p>
+                    <ol>
+                        <li>Fill out the application form with your details</li>
+                        <li>Submit a $50 application fee via PayPal</li>
+                        <li>Wait for our team to review your application</li>
+                    </ol>
+                    <p>Due to the high volume of applications, only selected contestants will be contacted. Application
+                        fee helps us process the thousands of submissions we receive.</p>
+                    <div class="apply-benefits">
+                        <h3>Why Apply?</h3>
+                        <ul>
+                            <li>💰 **Win $1,000,000:** A life-changing grand prize awaits!</li>
+                            <li>🌟 **Become a YouTube Star:** Appear in a viral MrBeast video watched by millions.</li>
+                            <li>🎉 **Experience the Unforgettable:** Participate in unique, thrilling challenges.</li>
+                            <li>🤝 **Join the Legacy:** Be part of MrBeast's incredible journey.</li>
+                        </ul>
+                        <p>This is more than just a challenge; it's an opportunity of a lifetime. Don't just watch
+                            history being made – be a part of it!</p>
+                    </div>
+                </div>
+                <div class="apply-form">
+                    <form id="application-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label>PayPal Payment Instructions</label>
+                            <p class="payment-instruction">Please send your $50 application fee to:
+                                <strong>PayPal.Me/sunyuaan</strong> via PayPal.
+                            </p>
+                        </div>
+                        <label for="payment-proof">Upload Payment Screenshot</label>
+                        <input type="file" id="payment-proof" name="payment-proof" accept="image/*" required>
+                        <small>Please upload a screenshot of your PayPal payment confirmation.</small>
+                </div>
+                <div class="form-group">
+                    <label for="why">Why should we select you? (100 words max)</label>
+                    <textarea id="why" name="why" rows="4" maxlength="500" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" required>
+                        I confirm I am over 18 years old and agree to the terms and conditions
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-apply">Submit Application</button>
+                </form>
+                <div id="payment-success" class="hidden">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Application Submitted!</h3>
+                    <p>We've received your application and payment. Check your email for confirmation.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Previous Winners</h2>
+            <div class="carousel-container">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="carousel-track-container">
+                    <div class="carousel-track">
+                        <!-- Testimonials will be dynamically loaded here by script.js -->
+                    </div>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="carousel-dots">
+                <!-- Dots will be dynamically loaded here by script.js -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>MrBeast Challenge</h2>
+                    <p>Changing lives one challenge at a time</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#challenge">The Challenge</a></li>
+                        <li><a href="#apply">Apply Now</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MrBeast Challenge. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
