@@ -1,6 +1,6 @@
 {
   "name": "mrbeast-challenge",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "MrBeast $1 Million Challenge",
   "main": "server.js",
   "scripts": {
