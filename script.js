@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Countdown Timer
 const countdown = () => {
-    const countDate = new Date('March 31, 2026 00:00:00').getTime(); // Set your target date here
+    const countDate = new Date('January 31, 2026 00:00:00').getTime(); // Set your target date here
     const now = new Date().getTime();
     const gap = countDate - now;
 
